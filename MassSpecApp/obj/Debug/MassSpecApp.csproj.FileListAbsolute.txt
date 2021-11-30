@@ -1,0 +1,14 @@
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\bin\Debug\MassSpecApp.exe.config
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\bin\Debug\MassSpecApp.exe
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\bin\Debug\MassSpecApp.pdb
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.csproj.AssemblyReference.cache
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MainWindow.baml
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MainWindow.g.cs
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\App.g.cs
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp_MarkupCompile.cache
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.g.resources
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.Properties.Resources.resources
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.csproj.GenerateResource.cache
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.exe
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.pdb
