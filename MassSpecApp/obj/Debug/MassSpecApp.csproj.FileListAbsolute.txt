@@ -12,3 +12,5 @@ C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpec
 C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.csproj.CoreCompileInputs.cache
 C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.exe
 C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp.pdb
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\HP\УНИВЕР\ДИПЛОМ\MassSpecApp\MassSpecApp\obj\Debug\MassSpecApp_MarkupCompile.lref

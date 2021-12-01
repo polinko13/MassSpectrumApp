@@ -25,25 +25,11 @@ namespace MassSpecApp
     /// </summary>
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
-
-        }
-
-        public void btnOpenFile_Click(object sender, RoutedEventArgs e)
-        {
             DataContext =
                 new ApplicationViewModel(new DialogService(), new mzXMLFileService());
         }
-        /*private void btnOpenFile_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "mzXML (*.mzXML)|*.mzXML|mzML (*.mzML)|*.mzML";
-            if (openFileDialog.ShowDialog() == true)
-                mzXMLEditor.Text = File.ReadAllText(openFileDialog.FileName);
-        }*/
-
     }
 }

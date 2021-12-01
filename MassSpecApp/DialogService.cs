@@ -15,9 +15,9 @@ namespace MassSpecApp
         void ShowMessage(string message);   // показ сообщения
         string FilePath { get; set; }   // путь к выбранному файлу
         bool OpenFileDialog();  // открытие файла
-        bool SaveFileDialog();  // сохранение файла
+        //bool SaveFileDialog();  // сохранение файла
     }
-    class DialogService : IDialogService
+    public class DialogService : IDialogService
     {
         public string FilePath { get; set; }
         public bool OpenFileDialog()
@@ -26,7 +26,6 @@ namespace MassSpecApp
             {
                 Filter = "mzXML (*.mzXML)|*.mzXML|mzML (*.mzML)|*.mzML"
             };
-
             if (openFileDialog.ShowDialog() == true)
             {
                 FilePath = openFileDialog.FileName;
@@ -35,7 +34,7 @@ namespace MassSpecApp
             return false;
         }
 
-        public bool SaveFileDialog()
+        /*public bool SaveFileDialog()
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             if (saveFileDialog.ShowDialog() == true)
@@ -44,7 +43,7 @@ namespace MassSpecApp
                 return true;
             }
             return false;
-        }
+        }*/
         public void ShowMessage(string message)
         {
             MessageBox.Show(message);

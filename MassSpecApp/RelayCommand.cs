@@ -5,15 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
+
 namespace MassSpecApp
 {
-    public interface ICommand
-    {
-        event EventHandler CanExecuteChanged;
-        void Execute(object parameter);
-        bool CanExecute(object parameter);
-    }
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private Action<object> execute;
         private Func<object, bool> canExecute;
