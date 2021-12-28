@@ -5,7 +5,7 @@
 A software project at the Saint-Petersburg University. 
 Студенческий проект. Разработака приложения для анализа данных UVPD-масс-спектров
 
-## Output charts
+## Output plots
 
 ![alt text](images/Pic1.png)
 
