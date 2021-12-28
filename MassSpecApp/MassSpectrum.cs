@@ -20,6 +20,9 @@ namespace MassSpecApp
         private double high_mz;
         private double base_peak_mz;
         private double base_peak_intensity;
+        private string base64_string;
+        private List<double> mz_list = new List<double>();
+        private List<double> intensity_list = new List<double>();
         public int Num
         {
             get { return num; }
@@ -64,6 +67,22 @@ namespace MassSpecApp
         {
             get { return base_peak_intensity; }
             set { base_peak_intensity = value; }
+        }
+        public string Base64String
+        {
+            get { return base64_string; }
+            set { base64_string = value; }
+        }
+
+        public List<double> MzList
+        {
+            get { return mz_list; }
+            set { mz_list = value; }
+        }
+        public List<double> IntensityList
+        {
+            get { return intensity_list; }
+            set { intensity_list = value; }
         }
 
     }

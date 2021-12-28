@@ -17,9 +17,8 @@ namespace MassSpecApp
     {
         public IFileService fileService;
         public IDialogService dialogService;
-        public ObservableCollection<MassSpectrum> Spectrum { get; set; }
+        public List<MassSpectrum> Spectrum { get; set; }
         
-
         //Команда открытия файла
         private RelayCommand openCommand;
         public RelayCommand OpenCommand => openCommand ??
@@ -29,10 +28,8 @@ namespace MassSpecApp
                         {
                             if (dialogService.OpenFileDialog())
                             {
-                                var spectra = fileService.Open(dialogService.FilePath);
-                                /*Spectrum.Clear();
-                                foreach (var p in spectra)
-                                    Spectrum.Add(p);*/
+                                Spectrum = fileService.Open(dialogService.FilePath);
+                                //dialogService.ShowGraph(Spectrum);
                                 dialogService.ShowMessage("Файл открыт");
                             }
                         }
@@ -46,6 +43,7 @@ namespace MassSpecApp
         {
             this.dialogService = dialogService;
             this.fileService = fileService;
+            
         }
     }
 }
