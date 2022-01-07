@@ -25,7 +25,7 @@ A software project at the Saint-Petersburg University.
 
 Vyatkina Kira Vadimovna
 
-- kyakovlev@hse.ru
+- kira.vyatkina@gmail.com
 - [AU website](https://spbau.ru/ob-universitete/kafedryi/kafedra-bioinformatiki-i-matematicheskoj-biologii/pps/vyatkina-kira-vadimovna)
 
 ## Contacts
