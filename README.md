@@ -2,13 +2,13 @@
 
 ## Description
 
-A software project at the Saint-Petersburg University. 
+A software project at the Saint-Petersburg University for the analysis of mass spectrum data. 
+
 Студенческий проект. Разработака приложения для анализа данных UVPD-масс-спектров
 
 ## Output plots
 
 ![alt text](images/Pic1.png)
-
 ![alt text](images/Pic2.png)
 ![alt text](images/Pic3.png)
 
