@@ -89,7 +89,7 @@ namespace MassSpecApp
             }
 
 
-            int scan = 3;
+            int scan = 3;// number of scan to show (in future we will be able to change the num int the app)
             double[] values = spect[scan].IntensityList.ToArray();
             double[] positions = spect[scan].MzList.ToArray();
 
