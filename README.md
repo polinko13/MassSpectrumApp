@@ -2,8 +2,16 @@
 
 ## Description
 
-A software project at the Saint-Petersburg University. 
+A software project at the Saint-Petersburg University for the analysis of mass spectrum data. 
+
 Студенческий проект. Разработака приложения для анализа данных UVPD-масс-спектров
+
+## Output plots
+
+![alt text](images/Pic1.png)
+![alt text](images/Pic2.png)
+![alt text](images/Pic3.png)
+
 
 
 ## Sources
@@ -17,7 +25,7 @@ A software project at the Saint-Petersburg University.
 
 Vyatkina Kira Vadimovna
 
-- kyakovlev@hse.ru
+- kira.vyatkina@gmail.com
 - [AU website](https://spbau.ru/ob-universitete/kafedryi/kafedra-bioinformatiki-i-matematicheskoj-biologii/pps/vyatkina-kira-vadimovna)
 
 ## Contacts
