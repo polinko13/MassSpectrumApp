@@ -20,9 +20,11 @@ namespace MassSpecApp
         private double high_mz;
         private double base_peak_mz;
         private double base_peak_intensity;
-        private string base64_string;
+        private double whole_peptide_mass;
+        private byte[] bytes;
         private List<double> mz_list = new List<double>();
         private List<double> intensity_list = new List<double>();
+
         public int Num
         {
             get { return num; }
@@ -33,6 +35,7 @@ namespace MassSpecApp
             get { return ms_level; }
             set { ms_level = value; }
         }
+
         public int PeaksCount
         {
             get { return peaks_count; }
@@ -68,10 +71,15 @@ namespace MassSpecApp
             get { return base_peak_intensity; }
             set { base_peak_intensity = value; }
         }
-        public string Base64String
+        public double PeptideMass
         {
-            get { return base64_string; }
-            set { base64_string = value; }
+            get { return whole_peptide_mass; }
+            set { whole_peptide_mass = value; }
+        }
+        public byte[] ByteString
+        {
+            get { return bytes; }
+            set { bytes = value; }
         }
 
         public List<double> MzList

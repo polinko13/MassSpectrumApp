@@ -31,6 +31,7 @@ namespace MassSpecApp
             List<MassSpectrum> spect = new List<MassSpectrum>();
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load("C:\\Users\\HP\\УНИВЕР\\ДИПЛОМ\\140411_QE_Cah-1.MZXML");
+            //xDoc.Load("C:\\Users\\HP\\УНИВЕР\\ДИПЛОМ\\test.MZXML");
             ParserMzXML parser = new ParserMzXML();
 
             spect = parser.Parser(xDoc);
