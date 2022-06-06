@@ -16,6 +16,8 @@ using System.Drawing;
 using Microsoft.Win32;
 using System.Xml;
 
+
+
 namespace MassSpecApp
 {
     /// <summary>
@@ -27,7 +29,7 @@ namespace MassSpecApp
         {
             InitializeComponent();
             //int scan = Convert.ToInt32(Console.ReadLine());
-            int scan = 3; // number of scan to show (in future we will be able to change the num int the app)
+            int scan = 9; // number of scan to show (in future we will be able to change the num int the app)
             List<MassSpectrum> spect = new List<MassSpectrum>();
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load("C:\\Users\\HP\\УНИВЕР\\ДИПЛОМ\\140411_QE_Cah-1.MZXML");
@@ -43,8 +45,24 @@ namespace MassSpecApp
             WpfPlot1.Plot.AddBar(intensity, mz_list);
 
             WpfPlot1.Refresh();
+            
+
+            //Попытка нарисовать координатную плоскость силами WPF
+
+
+
+           
+
+
+            // Конец попытки
 
         }
-            
+        private void btnOpenFile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            //if (openFileDialog.ShowDialog() == true)
+            //txtEditor.Text = File.ReadAllText(openFileDialog.FileName);
+        }
+
     }
 }

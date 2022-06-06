@@ -25,8 +25,23 @@
                 <lvc:Axis Title="Sold Apps" LabelFormatter="{Binding Formatter}"></lvc:Axis>
             </lvc:CartesianChart.AxisY>
         </lvc:CartesianChart>-->
-        <WpfPlot Name="WpfPlot1" />
-        
+        <!--<WpfPlot Name="WpfPlot1" />-->
+        <DockPanel Margin="10">
+            <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
+                <Button Name="btnOpenFile" Click="btnOpenFile_Click">Open file</Button>
+            </WrapPanel>
+            <WpfPlot Name="WpfPlot1">
+                <WpfPlot.ToolTip>
+                    <ToolTip Background="#90004455">
+                        <StackPanel>
+                            <TextBlock Margin="3" Foreground="White">Probably, it is b-ion!</TextBlock>
+                            <Image Source="grimace.png" Width="50" Margin="3"></Image>
+                            <TextBlock Margin="3">Это пик</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </WpfPlot.ToolTip>
+            </WpfPlot>
+        </DockPanel>
     </Grid>
     
 

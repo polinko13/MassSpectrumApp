@@ -110,6 +110,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AminoAcid.cs" />
+    <Compile Include="BYIonClassifier.cs" />
     <Compile Include="DialogService.cs" />
     <Compile Include="MassSpectrum.cs" />
     <Compile Include="mzXMLFileService.cs" />
